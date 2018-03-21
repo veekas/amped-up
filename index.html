@@ -1,0 +1,132 @@
+<!doctype html>
+<html amp lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <title>Hello, AMPs</title>
+  <link rel="canonical" href="http://example.ampproject.org/article-metadata.html">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Open-source framework for publishing content",
+      "datePublished": "2015-10-07T12:02:41Z",
+      "image": [
+        "logo.jpg"
+      ]
+    }
+  </script>
+  <style amp-boilerplate>
+    body {
+      -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      animation: -amp-start 8s steps(1, end) 0s 1 normal both
+    }
+
+    @-webkit-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+      to {
+        visibility: visible
+      }
+    }
+
+    @-moz-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+      to {
+        visibility: visible
+      }
+    }
+
+    @-ms-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+      to {
+        visibility: visible
+      }
+    }
+
+    @-o-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+      to {
+        visibility: visible
+      }
+    }
+
+    @keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+      to {
+        visibility: visible
+      }
+    }
+  </style>
+  <noscript>
+    <style amp-boilerplate>
+      body {
+        -webkit-animation: none;
+        -moz-animation: none;
+        -ms-animation: none;
+        animation: none
+      }
+    </style>
+  </noscript>
+  <style amp-custom>
+
+    body {
+      background-color: whitesmoke;
+      padding: 5vh 5vw;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    h1 {
+      font-family: "Garamond", serif;
+      font-size: 7vh;
+      text-align: center;
+    }
+
+    amp-img {
+      display: block;
+      margin: 5vh auto;
+      background-color: darkgrey;
+      border: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Welcome to the mobile web</h1>
+
+  <amp-img src="sbucks.jpg" alt="Starbucks" height="600" width="800" layout="responsive"></amp-img>
+
+  <p>At the Starbucks near Columbia University, dozens of students sought refuge from one of New York City's worst snow storms
+    in 2018 over their cups of hot coffee. At a nearby table, a hoodie-wearing web developer sat intently staring at lines
+    of colorful code as he began a new project. He had been planning to attend Google's AMP Roadshow, a day-long workshop
+    intended to promote the company's answer to the slow load times of content-heavy webpages on mobile devices. Unfortunately
+    for Veekas Shrivastava, even the technology industry's most powerful company could not justify opening its Manhattan
+    office for visitors that day, forcing the developer to relocate to his neighborhood coffee shop to work through the tutorials
+    on his own.</p>
+
+  <p>He began the first workshop entitled
+    <a href="https://www.ampproject.org/docs/getting_started/create.html">"Create Your First AMP Page"</a>,
+    in which he learned the minimum standards of an AMP-compliant page. Many of these standards
+    meant to promote responsive design would be familiar to any web developer in 2018, but there are some additions. After
+    adding a trendy &lt;html ⚡&gt; tag to specify that the page is AMP-compatible, one must add HTML code for AMP pages must
+    include a link to the AMP JavaScript library, and CSS boilerplate to hide content until the page finishes loading.</p>
+
+  <p>Shrivastava also found it interesting that Google decided to forego old-fashioned HTML &lt;img&gt; tags for &lt;amp-img&gt;,
+    and the same 'amp-' prefix for &lt;audio&gt; and &lt;video&gt;. He read that they did this to control the layout and prioritize resource-loading. Although the tutorial described how to link non-AMP and AMP pages by linking them in the &lt;head&gt; tag, he found it difficult to imagine a scenario in which a developer would want to duplicate code instead of providing fallback tags. He read about some convenient in-line image layout tricks such as 'sizes="50vw"' and 'layout="responsive"'.</p>
+
+</body>
+
+</html>
