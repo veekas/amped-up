@@ -1,12 +1,12 @@
 <!--
  Copyright 2016 Google Inc.
- 
+
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
  You may obtain a copy of the License at
- 
+
       http://www.apache.org/licenses/LICENSE-2.0
- 
+
  Unless required by applicable law or agreed to in writing, software
  distributed under the License is distributed on an "AS IS" BASIS,
  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -23,7 +23,7 @@
     <link rel="canonical" href="/article.html">
     <link rel="shortcut icon" href="amp_favicon.png">
 
-    <title>News Article</title>
+    <title>AdvAMPced 🐐</title>
 
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <style amp-custom>
@@ -87,17 +87,99 @@
      "description": "My first experience in an AMPlified world"
     }
     </script>
+
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+
+    <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
+
+    <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
+
   </head>
   <body>
     <header>
-      News Site
+      The Future York Times
     </header>
     <article>
-      <h1>Article Name</h1>
+      <h1>Your advanced condition required AMPutation</h1>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas tortor sapien, non tristique ligula accumsan eu.</p>
+      <p>Veekas Shrivastava abruptly looks up from the <a href="https://goo.gl/249SJc">Adding Advanced AMP Features workshop</a> and stares directly at me. "This is a long interview. How is your employer paying for your time?"</p>
 
-      <amp-img src="mountains.jpg" layout="responsive" width="266" height="150"></amp-img>
+      <p>"They're not. I actually don't have an employer. You'll notice that none of these newspaper names are real. Turns out I'm not even a real journalist. I'm just a clumsy literary device you created to entertain yourself as you walked through online tutorials at the library."</p>
+
+      <p><i>Editorial note</i>: Shrivastava had gone back to his apartment for a quick lunch and then moved to Butler Library to work for the rest of the day.</p>
+
+      <p>"Huh, good point. Well, anyway, let's pay for my time and throw some ads in here." 💰💰💰</p>
+
+      <amp-ad width="300" height="250" type="a9" data-aax_size="300x250" data-aax_pubname="test123" data-aax_src="302" data-slot="/35096353/amptesting/geo/us">
+        <div fallback>No ad appeared because you're not browsing from the US!</div>
+      </amp-ad>
+
+      <amp-ad type="yahoo" width="316" height="264" data-sid="954014446" data-site="news" data-sa='{"LREC":"300x250","secure":"true","content":"no_expandable;"}'>
+      </amp-ad>
+
+      <amp-ad width="300" height="250" type="doubleclick">
+      </amp-ad>
+
+      <amp-ad width="300" height="250" type="adpicker" data-ph="kbj2l87p3j">
+      </amp-ad>
+
+      <amp-ad width=320 height=50 type="smartadserver" data-site="94612" data-page="629154" data-format="38952" data-domain="https://<YourSmartAdServerDomain>">
+      </amp-ad>
+
+      <amp-ad width=600 height=100 type="fusion" data-ad-server="bn-01d.adtomafusion.com" data-media-zone="adtomatest.apica" data-layout="apicaping"
+        data-space="apicaAd" data-parameters="age=99&isMobile&gender=male">
+      </amp-ad>
+
+      <amp-ad width="320" height="50" type="imobile" data-pid="1847" data-asid="813689" data-adtype="banner">
+      </amp-ad>
+
+      <amp-ad width="300" height="250" type="brainy" data-aid="10" data-slot-id="3347">
+      </amp-ad>
+
+      <amp-ad width=300 height=250 type="adsense" data-ad-client="ca-pub-2005682797531342" data-ad-slot="7046626912">
+      </amp-ad>
+
+      <p><i>If you don't see any ads here, please whitelist this site in your ad-blocker. I promise the ads will be 100% tacky and irrelevant. Also, the ads don't actually generate revenue, so it's a lose-lose!</i></p>
+
+      <p>I'm dropping the journalism act now, by the way...</p>
+
+      <p>This tutorial also makes this non-sequitor into how to add a Youtube video on your page, as well, so here's the capstone presentation my team at <a href="https://www.fullstackacademy.com/">Fullstack Academy</a> made for our Chrome extension:</p>
+
+      <amp-youtube data-videoid="H9oYe_8Ks9M" layout="responsive" width="480" height="270">
+        <div fallback>
+          <p>The video could not be loaded.</p>
+        </div>
+      </amp-youtube>
+
+      <p>And finally, la piece de resistance, a tweet.</p>
+
+      <amp-twitter width="486" height="657" layout="responsive" data-tweetid="976547765265272833">
+      </amp-twitter>
+
+      <p>Actually, two tweets:</p>
+
+      <amp-twitter width="486" height="657" layout="responsive" data-tweetid="976548273388507136">
+      </amp-twitter>
+
+      <p>Now it's telling me to try out the 'fit-text' component so that I can make those nice, large quotes.</p>
+
+      <amp-fit-text width="400" height="75" layout="responsive" max-font-size="42">
+        Wait!
+      </amp-fit-text>
+
+      <amp-fit-text width="400" height="75" layout="responsive" max-font-size="42">
+        How many components?!
+      </amp-fit-text>
+
+      <amp-fit-text width="400" height="75" layout="responsive" max-font-size="42">
+        How many components is this workshop going to make me add to this page? I ask because it seems like we're getting to the point at which we're not so "accelerated" anymore.
+      </amp-fit-text>
+
+      <amp-fit-text width="400" height="400" layout="responsive" max-font-size="42">
+        <a href="./article2.amp.html">Next Page</a>
+      </amp-fit-text>
+
+
     </article>
   </body>
 </html>
